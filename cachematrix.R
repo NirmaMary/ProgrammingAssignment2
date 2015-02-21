@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
   Rinvr <- NULL
   # y <- NULL
   
-  setM <- function(y)                # sets x to the matrix and cached
+  setM <- function(y)                # sets x to the matrix to cache
   {
     x <<- y            # caches the Matrix argument in to X variable
     Rinvr <<- NULL     # Resets variabe to NULL in case it has changed.
